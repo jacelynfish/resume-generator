@@ -1,0 +1,140 @@
+doctype html
+html
+    head
+        title #{name}的简历
+        link(href="style.css" rel="stylesheet" type="text/css")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    body
+      div#container
+        div#sidebar
+            div.sidebar-item#sidebar-icon
+                div#sidebar-avatar
+                div#sidebar-name
+                    | #{name}
+                    span #{enName}
+                div#sidebar-brief #{brief}
+            div.sidebar-item#sidebar-contact
+                div.sidebar-title
+                    span 联系方式
+                div.sidebar-contact-item
+                    span #{contact.phone}
+                div.sidebar-contact-item
+                    span #{contact.email}
+
+                div.sidebar-contact-item
+                    span #{contact.page}
+
+
+            div.sidebar-item#sidebar-personalAccess
+                div.sidebar-title
+                    span 个人评价
+                div.sidebar-des-item #{personalAccessment}
+
+            div.sidebar-item#sidebar-lang
+                div.sidebar-title
+                    span 语言水平
+                div.sidebar-des-item #{skills.language.general}
+                div.sidebar-lang-item
+                    span.lang-title CET-4
+                    span.lang-bar#cet4-bar
+                    span.lang-level #{skills.language['CET-4']}
+                div.sidebar-lang-item
+                    span.lang-title CET-6
+                    span.lang-bar#cet6-bar
+                    span.lang-level #{skills.language['CET-6']}
+                if skills.language.other
+                    div.sidebar-lang-item
+                        span.lang-title #{skills.language.other.name}
+                        span.lang-bar#other-bar
+                        span.lang-level #{skills.language.other.level}
+
+            div.sidebar-item.footer#sidebar-footer
+                span Designed by Jacelynfish. <br/>Powered by Gulp, Jade and Sass.
+
+        div#main
+            div.main-item#education
+                h3.main-title
+                    | 教育经历
+                    span Education Experience
+                each eduitem in eduExperience
+                    div.edu-item
+                        div.edu-item-basic
+                            span.edu-school #{eduitem.school}
+                            span.edu-degree #{eduitem.degree}
+                            span.edu-gpa GPA: #{eduitem.gpa}
+                            span.edu-duration #{eduitem.enrollYear} - #{eduitem.eduYear}
+                        div.edu-item-faculty #{eduitem.faculty} #{eduitem.major}
+                        div.edu-item-des #{eduitem.courses}
+            div.main-item#intern
+                h3.main-title
+                    | 实习经历
+                    span Intern Experience
+                each internitem in internExperience
+                    div.intern-item
+                        div.intern-item-basic
+                            span.intern-company #{internitem.company}
+                            span.intern-location #{internitem.location}
+                            span.intern-duration #{internitem.startDate} - #{internitem.endDate}
+                        div.intern-item-job #{internitem.job}
+                        ul.intern-item-des
+                          each des in internitem.description
+                            li.intern-des-item <em>#{des.keyword}</em> #{des.detail}
+            div.main-item#project
+                h3.main-title
+                    | 校园/项目经历
+                    span Project Experience
+                each projitem in projectExperience
+                    div.proj-item
+                        div.proj-item-basic
+                            span.proj-name #{projitem.name}
+                            span.proj-location #{projitem.location}
+                            span.proj-duration #{projitem.startDate} - #{projitem.endDate}
+                        div.proj-item-job #{projitem.job}
+                        ul.proj-item-des
+                            each des in projitem.description
+                                li.proj-des-item #{des}
+            div.main-item#competition
+                h3.main-title
+                    | 比赛经历
+                    span Competition Experience
+                each com in competitionExperience
+                    div.com-item
+                        div.com-item-basic
+                            span.com-name #{com.name}
+                            span.com-duration #{com.date}
+                        div.com-item-honor #{com.honor}
+                        div.com-item-des #{com.description}
+
+            div.main-item#skills
+                h3.main-title
+                    | 技能爱好
+                    span Skills & Hobbies
+                div.skill-item
+                    h4.skill-title 专业技能
+                    div.prof-container
+                        each pro in skills.professional
+                            div.prof-item
+                                div.prof-item-title #{pro.title}
+                                ul.skill-item-des
+                                    each proDes in pro.description
+                                        li.prof-des-item #{proDes}
+
+                div.skill-item
+                    h4.skill-title 兴趣爱好
+                    ul.skill-item-hobbies
+                        each hobby in skills.hobbies
+                            li #{hobby}
+
+            div.main-item#demo
+                h3.main-title
+                    | 作品展示
+                    span Work Demo
+
+                each demo in workDemo
+                  div.demo-item
+                      div.demo-item-name
+                          span #{demo.name}
+                          a(href=demo.link)
+                      div.demo-item-des #{demo.description}
+        div.footer#global-footer
+          span Designed by Jacelynfish. <br/>Powered by Gulp, Jade and Sass.

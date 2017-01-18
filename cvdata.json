@@ -1,0 +1,122 @@
+{
+  "name":"靳鸿媛",
+  "enName":"Jacelyn",
+  "age":21,
+  "brief":"Front-end Developer",
+  "contact":{
+    "phone":"153 6376 3678",
+    "email":"hyjin_jacelyn@163.com",
+    "page":"https://github.com/jacelynfish"
+  },
+  "eduExperience":[
+    {
+      "school":"澳门科技大学",
+      "degree":"本科",
+      "enrollYear":2014,
+      "eduYear":2018,
+      "faculty":"信息技术学院",
+      "major":"软件技术及应用",
+      "gpa":3.67,
+      "rank":0,
+      "courses":"面向对象程序设计、数据结构与算法、数字电路、数据库原理及应用、编译原理、计算机组成原理、网络编程、软件工程等",
+      "honor":[
+        "2014-2015 学年第一、第二学期澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第一名",
+        "2016 年度澳门科技大学 ACM/ICPC 编程比赛二等奖",
+        "2015-2016 学年第一、第二学期澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第二名"
+      ]
+    }
+  ],
+  "internExperience":[
+    {
+      "company":"跟我科技",
+
+      "job":"Web网页设计开发",
+      "location":"珠海",
+      "startDate":"2015-10-01",
+      "endDate":"2016-02-27",
+      "description":[
+        {
+          "keyword":"前端页面开发",
+          "detail": "策划前端网页内容,修改前端网页页面代码,更换网页内容、表现样式及动画效果,网页端按时上线"
+        },
+        {
+          "keyword":"UI设计",
+          "detail": "设计网页端、移动端的 UI 视觉效果图"
+        },
+        {
+          "keyword":"创业路演",
+          "detail": "在珠海横琴澳门青年创业谷与创业邦合作的举办的互联网+时代的成功之道创业比赛中代表项目团队路演"
+        }
+      ]
+    }
+  ],
+  "projectExperience":[
+    {
+      "name":"MUSTBEE微信公众号“澳科大服务平台”",
+      "job":"微信公众号后台开发",
+      "location":"澳门",
+      "startDate":"2016-04-01",
+      "endDate":"2017-03-31",
+      "description":[
+        "使用NodeJS+Express为同学提供查阅图书馆馆藏、GPA及其他校园信息的微信公众号服务",
+        "参与策划、开发校园应用MUSTBEE微信小程序"
+      ]
+    }
+  ],
+  "competitionExperience":[
+    {
+      "name":"2016 爱范儿×Segmentfault第一届「未来小程序」黑客马拉松",
+      "date":"2016-10-06",
+      "description":"策划、设计游乐园指南微信小程序并负责部分页面的前端开发",
+      "honor":"最佳团队大奖"
+    }
+  ],
+  "skills":{
+    "professional":[
+      {
+        "title":"前端技能",
+        "description":[
+          "熟练应用HTML+CSS+JavaScript进行网页开发，熟悉JS原生Ajax, 了解ES6语法",
+          "熟悉NodeJS+Express+Mongodb的服务器后端开发，曾使用此技术开发校图书馆信息爬虫微信应用",
+          "熟练使用Vue2.0+Vue-router+Vuex开发SPA，了解微信小程序Mina框架；"
+        ]
+      },
+      {
+        "title":"前端工具",
+        "description":[
+          "在开发中熟练使用Sass预处理器",
+          "了解构建工具Webpack使用方法，有Gulp使用经验",
+          "在开发中熟练使用Git进行版本管理"
+        ]
+      }
+    ],
+    "language":{
+      "general":"日常熟练使用英文，能流利使用英文进行日常对话，能够使用英文进行专业阅读与写作；曾参与贡献Vue2.0中文版的翻译工作。",
+      "CET-4":632,
+      "CET-6":559,
+      "other":
+        {
+          "name":"IELTS",
+          "level":"7.5"
+        }
+
+    },
+    "hobbies":["熟练使用Photoshop"]
+  },
+  "workDemo":[
+    {
+      "name":"模拟联合国会议流程单页应用",
+      "link":"http://jacelynfish.github.io/mustmun/",
+      "description":"使用Vue1.0+Vue-router+vuex开发，选择localStorage作为客户端缓存方案，使用Webpack 1.0打包"
+    },
+    {
+      "name":"迷你课程管理系统",
+      "link":"https://github.com/jacelynfish/mini_moodle",
+      "description":"使用Vue2.0+Vue-router+vuex开发，选择localStorage作为客户端缓存方案，使用Webpack 2.0打包；后端选择Node.js作为开发语言，数据库使用Microsoft SQL Server 2016 Express"
+    }
+
+  ],
+
+  "personalAccessment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quam repudiandae temporibus voluptatem porro! Atque at, laboriosam dolores nulla itaque, consectetur a recusandae vero officia eius error distinctio doloremque, tempora!"
+
+}
