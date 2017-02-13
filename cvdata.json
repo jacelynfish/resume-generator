@@ -16,7 +16,7 @@
       "eduYear":2018,
       "faculty":"信息技术学院",
       "major":"软件技术及应用",
-      "gpa":3.67,
+      "gpa":3.73,
       "rank":0,
       "courses":"面向对象程序设计、数据结构与算法、数字电路、数据库原理及应用、编译原理、计算机组成原理、网络编程、软件工程等",
       "honor":[
@@ -117,6 +117,5 @@
 
   ],
 
-  "personalAccessment":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius quam repudiandae temporibus voluptatem porro! Atque at, laboriosam dolores nulla itaque, consectetur a recusandae vero officia eius error distinctio doloremque, tempora!"
-
+  "personalAccessment":"2018届软件工程学生，热爱前端开发，了解前端工程化流程，乐于学习各种前端新技术，曾在项目实践与课程作业中多次使用Vue.js与Sass、Webpack等框架与工具。\n熟练使用英文并热衷参加社区交流与活动，曾参与Vue.js 2.0社区版本的中文翻译。\n性格乐观向上，对基础知识的学习脚踏实地，对新技术、框架、工具永远保持无尽的好奇心。"
 }
