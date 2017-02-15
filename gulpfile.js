@@ -38,7 +38,7 @@ gulp.task('clean:style', function(){
     return del(['./dist/style.css']);
 })
 
-gulp.task('default',function(){
+gulp.task('default',['pug', 'style'],function(){
     gulp.watch(['./view/index.pug','./cvdata.json'],['pug']);
     gulp.watch('./style/style.scss',['style']);
 })
