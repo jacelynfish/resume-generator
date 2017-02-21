@@ -16,13 +16,14 @@
       "eduYear":2018,
       "faculty":"资讯科技学院",
       "major":"软件技术及应用",
-      "gpa":3.73,
+      "gpa":"3.73/4",
       "rank":0,
       "courses":"面向对象程序设计、数据结构与算法、数字电路、数据库原理及应用、编译原理、计算机组成原理、网络编程、软件工程等",
       "honor":[
         "2014-2015 学年第一、第二学期澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第一名",
         "2016 年度澳门科技大学 ACM/ICPC 编程比赛二等奖",
-        "2015-2016 学年第一、第二学期澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第二名"
+        "2015-2016 学年第一、第二学期澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第二名",
+        "2016-2017 学年第一澳门科技大学资讯科技学院院长优秀生 榜(B 榜)第一名"
       ]
     }
   ],
@@ -105,14 +106,19 @@
   },
   "workDemo":[
     {
-      "name":"模拟联合国会议流程单页应用",
+      "name":"模拟联合国会议流程单页应用 http://jacelynfish.github.io/mustmun/#!/",
       "link":"http://jacelynfish.github.io/mustmun/",
       "description":"使用Vue1.0+Vue-router+vuex开发，选择localStorage作为客户端缓存方案，使用Webpack 1.0打包"
     },
     {
-      "name":"迷你课程管理系统",
+      "name":"迷你课程管理系统 https://github.com/jacelynfish/mini_moodle",
       "link":"https://github.com/jacelynfish/mini_moodle",
       "description":"使用Vue2.0+Vue-router+vuex开发，选择localStorage作为客户端缓存方案，使用Webpack 2.0打包；后端选择Node.js作为开发语言，数据库使用Microsoft SQL Server 2016 Express"
+    },
+    {
+      "name":"在线简历 https://github.com/jacelynfish/resume-generator",
+      "link":"http://jacelynfish.github.io/resume/",
+      "description":"使用Sass, Gulp以及Pug开发"
     }
 
   ],
