@@ -190,6 +190,24 @@ a {
   font-size: 1em;
   line-height: 1.5; }
 
+.sidebar-contact-item:nth-child(2):before {
+  background-image: url(sprites.png);
+  background-position: 0px -84px;
+  width: 16px;
+  height: 16px; }
+
+.sidebar-contact-item:nth-child(3):before {
+  background-image: url(sprites.png);
+  background-position: -72px -84px;
+  width: 16px;
+  height: 16px; }
+
+.sidebar-contact-item:nth-child(4):before {
+  background-image: url(sprites.png);
+  background-position: -36px -84px;
+  width: 16px;
+  height: 16px; }
+
 .sidebar-contact-item:nth-child(2) {
   display: inline-block;
   margin-left: 36px;
@@ -200,8 +218,6 @@ a {
     content: '';
     width: 16px;
     height: 16px;
-    background-image: url("./icon/phone.png");
-    background-size: 16px 16px;
     margin-right: 8px;
     margin-left: -24px;
     vertical-align: middle; }
@@ -218,8 +234,6 @@ a {
     content: '';
     width: 16px;
     height: 16px;
-    background-image: url("./icon/email.png");
-    background-size: 16px 16px;
     margin-right: 8px;
     margin-left: -24px;
     vertical-align: middle; }
@@ -236,8 +250,6 @@ a {
     content: '';
     width: 16px;
     height: 16px;
-    background-image: url("./icon/web.png");
-    background-size: 16px 16px;
     margin-right: 8px;
     margin-left: -24px;
     vertical-align: middle; }
@@ -354,15 +366,48 @@ a {
         display: none; } }
 
 #education .main-title:before {
+  background-image: url(sprites.png);
+  background-position: -42px 0px;
+  width: 22px;
+  height: 22px; }
+
+#intern .main-title:before {
+  background-image: url(sprites.png);
+  background-position: 0px -42px;
+  width: 22px;
+  height: 22px; }
+
+#competition .main-title:before {
+  background-image: url(sprites.png);
+  background-position: 0px 0px;
+  width: 22px;
+  height: 22px; }
+
+#project .main-title:before {
+  background-image: url(sprites.png);
+  background-position: -84px 0px;
+  width: 22px;
+  height: 22px; }
+
+#skills .main-title:before {
+  background-image: url(sprites.png);
+  background-position: -84px -42px;
+  width: 22px;
+  height: 22px; }
+
+#demo .main-title:before {
+  background-image: url(sprites.png);
+  background-position: -42px -42px;
+  width: 22px;
+  height: 22px; }
+
+#education .main-title:before {
   display: inline-block;
   content: "";
   margin-left: -32px;
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/education.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -376,9 +421,6 @@ a {
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/intern.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -392,9 +434,6 @@ a {
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/competition.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -408,9 +447,6 @@ a {
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/project.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -424,9 +460,6 @@ a {
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/skills.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -440,9 +473,6 @@ a {
   margin-right: 8px;
   width: 24px;
   height: 24px;
-  background-image: url("./icon/demo.png");
-  background-size: 16px 16px;
-  background-position: 50% 50%;
   background-repeat: no-repeat;
   border-radius: 12px;
   border: 1px solid #0c9;
@@ -485,8 +515,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -530,8 +562,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -575,8 +609,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -620,8 +656,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -665,8 +703,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -710,8 +750,10 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background: url("./icon/star.png") no-repeat;
-        background-size: 12px 12px;
+        background-image: url(sprites.png);
+        background-position: -126px -36px;
+        width: 12px;
+        height: 12px;
         width: 12px;
         height: 12px; }
 
@@ -731,7 +773,10 @@ a {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background: url("./icon/link.png") no-repeat;
+  background-image: url(sprites.png);
+  background-position: -126px 0px;
+  width: 16px;
+  height: 16px;
   vertical-align: middle;
   margin-left: 4px; }
 

@@ -38,6 +38,17 @@ gulp.task('clean:style', function(){
     return del(['./dist/style.css']);
 })
 
+gulp.task('sprites', function(){
+    var sprites = gulp.src('./icon/*.png')
+        .pipe(spritesmith({
+            padding:20,
+            cssName:'sprites.scss',
+            imgName:'sprites.png'
+        }))
+    sprites.img.pipe(gulp.dest('./dist'));
+    sprites.css.pipe(gulp.dest('./style'));
+    return sprites;
+})
 gulp.task('default',['pug', 'style'],function(){
     gulp.watch(['./view/index.pug','./cvdata.json'],['pug']);
     gulp.watch('./style/style.scss',['style']);

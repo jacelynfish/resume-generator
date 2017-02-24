@@ -26,6 +26,7 @@ $titlecolor: #555;
 $maincolor: #0c9;
 
 @import '_reset.scss';
+@import 'sprites.scss';
 
 #container{
   font-family: $zhfont;
@@ -171,6 +172,24 @@ $maincolor: #0c9;
   }
 }
 
+.sidebar-contact-item:nth-child(2){
+  &:before{
+    @include sprite($phone);
+  }
+}
+.sidebar-contact-item:nth-child(3){
+  &:before{
+    @include sprite($email);
+  }
+}
+
+
+.sidebar-contact-item:nth-child(4){
+  &:before{
+    @include sprite($web);
+  }
+
+}
 @each $idx,$name in (2:phone, 3:email, 4:web){
   .sidebar-contact-item:nth-child(#{$idx}){
     display: inline-block;
@@ -183,8 +202,10 @@ $maincolor: #0c9;
       content: '';
       width: 16px;
       height: 16px;
-      background-image: url('./icon/#{$name}.png');
-      background-size: 16px 16px;
+
+      //@include sprite($#{$name});
+      //background-image: url('./icon/#{$name}.png');
+      //background-size: 16px 16px;
       margin-right: 8px;
       margin-left: -24px;
       vertical-align: middle;
@@ -194,6 +215,7 @@ $maincolor: #0c9;
     }
   }
 }
+
 
 .sidebar-des-item {
   text-align: justify;
@@ -327,6 +349,37 @@ $maincolor: #0c9;
 
 
 }
+#education .main-title{
+    &:before {
+      @include sprite($education)
+    }
+  }
+#intern .main-title{
+     &:before {
+       @include sprite($intern)
+     }
+   }
+#competition .main-title{
+      &:before {
+        @include sprite($competition)
+      }
+    }
+#project .main-title{
+       &:before {
+         @include sprite($project)
+       }
+     }
+#skills .main-title{
+        &:before {
+          @include sprite($skills)
+        }
+      }
+#demo .main-title{
+         &:before {
+           @include sprite($demo)
+         }
+       }
+
 @each $title in education, intern, competition, project, skills, demo{
   ##{$title} .main-title{
     &:before{
@@ -335,10 +388,12 @@ $maincolor: #0c9;
       margin-left: -32px;
       margin-right: 8px;
       width: 24px;
+
       height: 24px;
-      background-image: url('./icon/#{$title}.png');
-      background-size: 16px 16px;
-      background-position: 50% 50%;
+
+      //background-image: url('./icon/#{$title}.png');
+      //background-size: 16px 16px;
+      //background-position: 50% 50%;
       background-repeat: no-repeat;
       border-radius: 12px;
       border: 1px solid $maincolor;
@@ -348,6 +403,7 @@ $maincolor: #0c9;
 
   }
 }
+
 
 @each $mainItem in edu, intern, com, proj, skill, demo{
   .#{$mainItem}-item{
@@ -394,9 +450,9 @@ $maincolor: #0c9;
           margin-right: 4px;
           display: inline-block;
           content: '';
-          //@include sprites($star);
-          background: url('./icon/star.png') no-repeat;
-          background-size: 12px 12px;
+          @include sprite($star);
+          //background: url('./icon/star.png') no-repeat;
+          //background-size: 12px 12px;
           width: 12px;
           height: 12px;
 
@@ -426,8 +482,8 @@ $maincolor: #0c9;
   display: inline-block;
   width: 16px;
   height: 16px;
-  //@include sprites($link);
-  background: url('./icon/link.png') no-repeat;
+  @include sprite($link);
+  //background: url('./icon/link.png') no-repeat;
   vertical-align: middle;
   margin-left: 4px;
 }
