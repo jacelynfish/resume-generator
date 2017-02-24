@@ -5,15 +5,6 @@ var cvdata = require('./cvdata.json');
 var sass = require('gulp-sass');
 var spritesmith = require('gulp.spritesmith');
 
-
-// gulp.task('sprites', function(){
-//     return gulp.src('./icon/*.png')
-//         .pipe(spritesmith({
-//             cssName:'_sprites.scss',
-//             imgName:'sprites.png'
-//         }))
-//         .pipe(gulp.dest('./style'));
-// })
 gulp.task('pug', ['clean:pug'], function(){
     console.log('buiding index.html...');
     return gulp.src('./view/index.pug')
