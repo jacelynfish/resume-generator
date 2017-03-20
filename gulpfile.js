@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var pug = require('gulp-pug');
 var del = require('del');
 var cvdata = require('./cvdata.json');
+var endata = require('./en_cvdata.json');
 var sass = require('gulp-sass');
 var spritesmith = require('gulp.spritesmith');
 
@@ -12,6 +13,14 @@ gulp.task('pug', ['clean:pug'], function(){
             locals:cvdata
         }))
         .pipe(gulp.dest('./dist'));
+});
+gulp.task('enpug', function(){
+    console.log('buiding en_index.html...');
+    return gulp.src('./view/en_index.pug')
+        .pipe(pug({
+            locals:endata
+        }))
+        .pipe(gulp.dest('./dist/en'));
 });
 
 gulp.task('style',['clean:style'], function(){

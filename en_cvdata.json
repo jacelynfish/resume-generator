@@ -1,0 +1,127 @@
+{
+  "name":"Hongyuan Jin",
+  "enName":"靳鸿媛",
+  "age":21,
+  "brief":"Front-end Developer",
+  "contact":{
+    "phone":"(+853) 6376 3678",
+    "email":"jacelyn.hyjin@gmail.com",
+    "page":"https://github.com/jacelynfish"
+  },
+  "eduExperience":[
+    {
+      "school":"Macau University of Science and Technology",
+      "degree":"Bachelor degree",
+      "enrollYear":2014,
+      "eduYear":2018,
+      "faculty":"Faculty of Information Technology",
+      "major":"Software Technology and Application",
+      "gpa":"3.73/4",
+      "rank":0,
+      "courses":"Object-oriented Programming, Data Structure and Algorithms, Elementary Digital Circuit, Database Principal and Application, Principle of Compiler, Principle of Computer Organization, Operating Systems, Computer Network",
+      "honor":[
+        "2014-2015 Dean's Honor List of Faculty of Information Technology (B List), 1st Place",
+        "2016 Macau University of Science and Technology Collegiate Programming Contest, Second Prize",
+        "2015-2016 Dean's Honor List of Faculty of Information Technology (B List), 2nd Place",
+        "2016-2017 Dean's Honor List of Faculty of Information Technology (B List), 1st Place"
+      ]
+    }
+  ],
+  "internExperience":[
+    {
+      "company":"Withme Tech.",
+
+      "job":"Front-end Developer",
+      "location":"Zhuhai, Guangdong",
+      "startDate":"2015-10-01",
+      "endDate":"2016-02-27",
+      "description":[
+        {
+          "keyword":"Web page development",
+          "detail": "Planned the content of the website and modified the style as well as the animation effects using Bootstrap."
+        },
+        {
+          "keyword":"UI design",
+          "detail": "Designed both the UI of the PC website and mobile website."
+        },
+        {
+          "keyword":"Startup presentation",
+          "detail": "Presented for the startup company Background Proposal in Hengqin-Macau Youth Innovalley."
+        }
+      ]
+    }
+  ],
+  "projectExperience":[
+    {
+      "name":"MUSTBEE Wechat Subscription Application",
+      "job":"Wechat subscription server development",
+      "location":"Macau",
+      "startDate":"2016-04-01",
+      "endDate":"2017-03-31",
+      "description":[
+        "Used Node.js + Express.js to develop crawler and Node.js middleware for Wechat library/GPA searching services.",
+        "Planned and developed campus application: MUSTBEE Mini Program (using Tencent's Mina framework)."
+      ]
+    }
+  ],
+  "competitionExperience":[
+    {
+      "name":"2016 ifanr×Segmentfault the 1st「Future Mini Program」Hackthon",
+      "date":"2016-10-06",
+      "description":"Planned and design a Wechat Mini Program for theme parks and developed part of the front-end components.",
+      "honor":"The Prize for Best Team"
+    }
+  ],
+  "skills":{
+    "professional":[
+      {
+        "title":"Front-end Skills",
+        "description":[
+          "Sophisticated at HTML + CSS + JavaScript in web developing，familiar with Ajax, and understand the grammar of ES6",
+          "Familiar with Node.js + Express.js + Mongodb server-size develoment.",
+          "Proficient in Vue2.0 + Vue-router + Vuex for Single Page Application development."
+        ]
+      },
+      {
+        "title":"Front-end Tools",
+        "description":[
+          "Familiar with the usages of Sass in development.",
+          "Understarnd the usage of Webpack and Gulp in code packing and task running.",
+          "Experienced with Git to practice version control."
+        ]
+      }
+    ],
+    "language":{
+      "general":"I'm able to conduct both daily conversations and practice academic research in English proficiently. I am a contributor for the community version of Vue.js 2.0 English-China translation.",
+      "CET-4":632,
+      "CET-6":559,
+      "other":
+        {
+          "name":"IELTS",
+          "level":"7.5"
+        }
+
+    },
+    "hobbies":["Sophisticated in Adobe Photoshop"]
+  },
+  "workDemo":[
+    {
+      "name":"Modeled United Nations Conference Control Console SPA http://jacelynfish.github.io/mustmun/#!/",
+      "link":"http://jacelynfish.github.io/mustmun/",
+      "description":"Developed in Vue1.0 + Vue-router + vuex，chose localStorage as client-side cache storage solution，packed using Webpack 1.0"
+    },
+    {
+      "name":"Mini Moodle -- Course Management System https://github.com/jacelynfish/mini_moodle",
+      "link":"https://github.com/jacelynfish/mini_moodle",
+      "description":"Developed using Vue2.0+Vue-router+vuex，chose localStorage as client-side cache storage solution，packed with Webpack 2.0；implemented server routers with Node.js and Express.js，stored the data within Microsoft SQL Server 2016 Express"
+    },
+    {
+      "name":"Online Resume Generator https://github.com/jacelynfish/resume-generator",
+      "link":"http://jacelynfish.github.io/resume/",
+      "description":"Implemented the basic views using Pug and Sass and used Gulp to run the building tasks."
+    }
+
+  ],
+
+  "personalAccessment":"I am a student of Software Technology and Application major graduating in 2018. I'm passionate abouth front-end development and familiar with the common process of industralized front-end development. I am eager to learn various new front-end technology, frameworks and tools and therefor been able to practice with frameworks and tools such as Vue.js, Sass and Webpack. \nI am sophisticated in English language and enthusiastic about community conferences, activities and communications. I have been part of the community translation group for the Chinese document of Vue.js 2.0. \nI'm also an optimistic person who are grounded in learning principles of computer science theories and keeps forever curious with new features, frameworks and technology in front-end development."
+}
