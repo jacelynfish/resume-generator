@@ -4,7 +4,7 @@
   "age":21,
   "brief":"Front-end Developer",
   "contact":{
-    "phone":"153 6376 3678",
+    "phone":"176 1078 2118",
     "email":"hyjin_jacelyn@163.com",
     "page":"https://github.com/jacelynfish"
   },
@@ -16,7 +16,7 @@
       "eduYear":2018,
       "faculty":"资讯科技学院",
       "major":"软件技术及应用",
-      "gpa":"3.73/4",
+      "gpa":"3.87/4",
       "rank":0,
       "courses":"面向对象程序设计、数据结构与算法、数字电路、数据库原理及应用、编译原理、计算机组成原理、网络编程、软件工程等",
       "honor":[
@@ -28,6 +28,32 @@
     }
   ],
   "internExperience":[
+    {
+      "company":"北京格灵深瞳信息技术有限公司",
+
+      "job":"前端开发实习生",
+      "location":"北京",
+      "startDate":"2017-06-07",
+      "endDate":"2017-08-25",
+      "description":[
+        {
+          "keyword":"数据可视化",
+          "detail": "使用Canvas+SVG+D3.js绘制用户足迹视图、上下班时间统计等动态图表"
+        },
+        {
+          "keyword":"Node中间件开发",
+          "detail": "使用Koa2开发Node端用户账号验证、路由代理的跳转、后端数据的预处理、登录系统的cookie session管理等中间件"
+        },
+        {
+          "keyword":"产品调试部署",
+          "detail": "大量使用Webpack2进行项目开发环境下的调试及生产环境下的打包，使用Docker和PM2进行项目服务器的云端部署"
+        },
+        {
+          "keyword":"WebSocket开发",
+          "detail":"使用WebRTC接口+Canvas获取用户设备视频流进行视频截图，并使用WebSocket实时获得后端数据"
+        }
+      ]
+    },
     {
       "company":"跟我科技",
 
@@ -116,9 +142,9 @@
       "description":"使用Vue2.0+Vue-router+vuex开发，选择localStorage作为客户端缓存方案，使用Webpack 2.0打包；后端选择Node.js作为开发语言，数据库使用Microsoft SQL Server 2016 Express"
     },
     {
-      "name":"在线简历 https://github.com/jacelynfish/resume-generator",
-      "link":"http://jacelynfish.github.io/resume/",
-      "description":"使用Sass, Gulp以及Pug开发"
+      "name":"在线简历  https://github.com/jacelynfish/DearResume",
+      "link":"http://jacelynfish.github.io/dear_resume",
+      "description":"负责简历页面的前端开发工作，使用Sass及Pug开发静态模板；使用Webpack2.0打包；使用canvas生成可下载的A4页面简历；同时尝试加载优化方法，使用Sass + CSS Sprites 减少小图标网络请求。"
     }
 
   ],

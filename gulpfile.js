@@ -42,8 +42,12 @@ gulp.task('sprites', function(){
     var sprites = gulp.src('./icon/*.png')
         .pipe(spritesmith({
             padding:20,
+            retinaSrcFilter:['./icon/*@2x.png'],
             cssName:'sprites.scss',
-            imgName:'sprites.png'
+            imgName:'sprites.png',
+            retinaImgName: 'sprites@2x.png',
+	    imgPath:'../img/sprites.png',
+            retinaImgPath:'../img/sprites@2x.png'
         }))
     sprites.img.pipe(gulp.dest('./dist'));
     sprites.css.pipe(gulp.dest('./style'));
