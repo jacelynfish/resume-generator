@@ -9,132 +9,309 @@
 //
 // At the bottom of this section, we provide information about the spritesheet itself
 // $spritesheet: width height image $spritesheet-sprites;
+$blog-name: 'blog';
+$blog-x: 72px;
+$blog-y: 88px;
+$blog-offset-x: -72px;
+$blog-offset-y: -88px;
+$blog-width: 16px;
+$blog-height: 16px;
+$blog-total-width: 148px;
+$blog-total-height: 104px;
+$blog-image: './sprites.png';
+$blog: (72px, 88px, -72px, -88px, 16px, 16px, 148px, 104px, './sprites.png', 'blog', );
 $competition-name: 'competition';
-$competition-x: 0px;
-$competition-y: 0px;
-$competition-offset-x: 0px;
-$competition-offset-y: 0px;
-$competition-width: 22px;
-$competition-height: 22px;
-$competition-total-width: 142px;
-$competition-total-height: 100px;
-$competition-image: '../img/sprites.png';
-$competition: (0px, 0px, 0px, 0px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'competition', );
+$competition-x: 44px;
+$competition-y: 44px;
+$competition-offset-x: -44px;
+$competition-offset-y: -44px;
+$competition-width: 24px;
+$competition-height: 24px;
+$competition-total-width: 148px;
+$competition-total-height: 104px;
+$competition-image: './sprites.png';
+$competition: (44px, 44px, -44px, -44px, 24px, 24px, 148px, 104px, './sprites.png', 'competition', );
 $demo-name: 'demo';
-$demo-x: 42px;
-$demo-y: 42px;
-$demo-offset-x: -42px;
-$demo-offset-y: -42px;
-$demo-width: 22px;
-$demo-height: 22px;
-$demo-total-width: 142px;
-$demo-total-height: 100px;
-$demo-image: '../img/sprites.png';
-$demo: (42px, 42px, -42px, -42px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'demo', );
+$demo-x: 0px;
+$demo-y: 0px;
+$demo-offset-x: 0px;
+$demo-offset-y: 0px;
+$demo-width: 24px;
+$demo-height: 24px;
+$demo-total-width: 148px;
+$demo-total-height: 104px;
+$demo-image: './sprites.png';
+$demo: (0px, 0px, 0px, 0px, 24px, 24px, 148px, 104px, './sprites.png', 'demo', );
 $education-name: 'education';
-$education-x: 42px;
+$education-x: 44px;
 $education-y: 0px;
-$education-offset-x: -42px;
+$education-offset-x: -44px;
 $education-offset-y: 0px;
-$education-width: 22px;
-$education-height: 22px;
-$education-total-width: 142px;
-$education-total-height: 100px;
-$education-image: '../img/sprites.png';
-$education: (42px, 0px, -42px, 0px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'education', );
+$education-width: 24px;
+$education-height: 24px;
+$education-total-width: 148px;
+$education-total-height: 104px;
+$education-image: './sprites.png';
+$education: (44px, 0px, -44px, 0px, 24px, 24px, 148px, 104px, './sprites.png', 'education', );
 $email-name: 'email';
-$email-x: 72px;
-$email-y: 84px;
-$email-offset-x: -72px;
-$email-offset-y: -84px;
+$email-x: 132px;
+$email-y: 0px;
+$email-offset-x: -132px;
+$email-offset-y: 0px;
 $email-width: 16px;
 $email-height: 16px;
-$email-total-width: 142px;
-$email-total-height: 100px;
-$email-image: '../img/sprites.png';
-$email: (72px, 84px, -72px, -84px, 16px, 16px, 142px, 100px, '../img/sprites.png', 'email', );
+$email-total-width: 148px;
+$email-total-height: 104px;
+$email-image: './sprites.png';
+$email: (132px, 0px, -132px, 0px, 16px, 16px, 148px, 104px, './sprites.png', 'email', );
 $intern-name: 'intern';
 $intern-x: 0px;
-$intern-y: 42px;
+$intern-y: 44px;
 $intern-offset-x: 0px;
-$intern-offset-y: -42px;
-$intern-width: 22px;
-$intern-height: 22px;
-$intern-total-width: 142px;
-$intern-total-height: 100px;
-$intern-image: '../img/sprites.png';
-$intern: (0px, 42px, 0px, -42px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'intern', );
+$intern-offset-y: -44px;
+$intern-width: 24px;
+$intern-height: 24px;
+$intern-total-width: 148px;
+$intern-total-height: 104px;
+$intern-image: './sprites.png';
+$intern: (0px, 44px, 0px, -44px, 24px, 24px, 148px, 104px, './sprites.png', 'intern', );
 $link-name: 'link';
-$link-x: 126px;
-$link-y: 0px;
-$link-offset-x: -126px;
-$link-offset-y: 0px;
+$link-x: 0px;
+$link-y: 88px;
+$link-offset-x: 0px;
+$link-offset-y: -88px;
 $link-width: 16px;
 $link-height: 16px;
-$link-total-width: 142px;
-$link-total-height: 100px;
-$link-image: '../img/sprites.png';
-$link: (126px, 0px, -126px, 0px, 16px, 16px, 142px, 100px, '../img/sprites.png', 'link', );
+$link-total-width: 148px;
+$link-total-height: 104px;
+$link-image: './sprites.png';
+$link: (0px, 88px, 0px, -88px, 16px, 16px, 148px, 104px, './sprites.png', 'link', );
 $phone-name: 'phone';
-$phone-x: 0px;
-$phone-y: 84px;
-$phone-offset-x: 0px;
-$phone-offset-y: -84px;
+$phone-x: 36px;
+$phone-y: 88px;
+$phone-offset-x: -36px;
+$phone-offset-y: -88px;
 $phone-width: 16px;
 $phone-height: 16px;
-$phone-total-width: 142px;
-$phone-total-height: 100px;
-$phone-image: '../img/sprites.png';
-$phone: (0px, 84px, 0px, -84px, 16px, 16px, 142px, 100px, '../img/sprites.png', 'phone', );
+$phone-total-width: 148px;
+$phone-total-height: 104px;
+$phone-image: './sprites.png';
+$phone: (36px, 88px, -36px, -88px, 16px, 16px, 148px, 104px, './sprites.png', 'phone', );
 $project-name: 'project';
-$project-x: 84px;
+$project-x: 88px;
 $project-y: 0px;
-$project-offset-x: -84px;
+$project-offset-x: -88px;
 $project-offset-y: 0px;
-$project-width: 22px;
-$project-height: 22px;
-$project-total-width: 142px;
-$project-total-height: 100px;
-$project-image: '../img/sprites.png';
-$project: (84px, 0px, -84px, 0px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'project', );
+$project-width: 24px;
+$project-height: 24px;
+$project-total-width: 148px;
+$project-total-height: 104px;
+$project-image: './sprites.png';
+$project: (88px, 0px, -88px, 0px, 24px, 24px, 148px, 104px, './sprites.png', 'project', );
 $skills-name: 'skills';
-$skills-x: 84px;
-$skills-y: 42px;
-$skills-offset-x: -84px;
-$skills-offset-y: -42px;
+$skills-x: 88px;
+$skills-y: 44px;
+$skills-offset-x: -88px;
+$skills-offset-y: -44px;
 $skills-width: 22px;
 $skills-height: 22px;
-$skills-total-width: 142px;
-$skills-total-height: 100px;
-$skills-image: '../img/sprites.png';
-$skills: (84px, 42px, -84px, -42px, 22px, 22px, 142px, 100px, '../img/sprites.png', 'skills', );
+$skills-total-width: 148px;
+$skills-total-height: 104px;
+$skills-image: './sprites.png';
+$skills: (88px, 44px, -88px, -44px, 22px, 22px, 148px, 104px, './sprites.png', 'skills', );
 $star-name: 'star';
-$star-x: 126px;
-$star-y: 36px;
-$star-offset-x: -126px;
-$star-offset-y: -36px;
+$star-x: 132px;
+$star-y: 72px;
+$star-offset-x: -132px;
+$star-offset-y: -72px;
 $star-width: 12px;
 $star-height: 12px;
-$star-total-width: 142px;
-$star-total-height: 100px;
-$star-image: '../img/sprites.png';
-$star: (126px, 36px, -126px, -36px, 12px, 12px, 142px, 100px, '../img/sprites.png', 'star', );
+$star-total-width: 148px;
+$star-total-height: 104px;
+$star-image: './sprites.png';
+$star: (132px, 72px, -132px, -72px, 12px, 12px, 148px, 104px, './sprites.png', 'star', );
 $web-name: 'web';
-$web-x: 36px;
-$web-y: 84px;
-$web-offset-x: -36px;
-$web-offset-y: -84px;
+$web-x: 132px;
+$web-y: 36px;
+$web-offset-x: -132px;
+$web-offset-y: -36px;
 $web-width: 16px;
 $web-height: 16px;
-$web-total-width: 142px;
-$web-total-height: 100px;
-$web-image: '../img/sprites.png';
-$web: (36px, 84px, -36px, -84px, 16px, 16px, 142px, 100px, '../img/sprites.png', 'web', );
-$spritesheet-width: 142px;
-$spritesheet-height: 100px;
-$spritesheet-image: '../img/sprites.png';
-$spritesheet-sprites: ($competition, $demo, $education, $email, $intern, $link, $phone, $project, $skills, $star, $web, );
-$spritesheet: (142px, 100px, '../img/sprites.png', $spritesheet-sprites, );
+$web-total-width: 148px;
+$web-total-height: 104px;
+$web-image: './sprites.png';
+$web: (132px, 36px, -132px, -36px, 16px, 16px, 148px, 104px, './sprites.png', 'web', );
+$blog-2x-name: 'blog@2x';
+$blog-2x-x: 144px;
+$blog-2x-y: 176px;
+$blog-2x-offset-x: -144px;
+$blog-2x-offset-y: -176px;
+$blog-2x-width: 32px;
+$blog-2x-height: 32px;
+$blog-2x-total-width: 296px;
+$blog-2x-total-height: 208px;
+$blog-2x-image: './sprites@2x.png';
+$blog-2x: (144px, 176px, -144px, -176px, 32px, 32px, 296px, 208px, './sprites@2x.png', 'blog@2x', );
+$competition-2x-name: 'competition@2x';
+$competition-2x-x: 88px;
+$competition-2x-y: 88px;
+$competition-2x-offset-x: -88px;
+$competition-2x-offset-y: -88px;
+$competition-2x-width: 48px;
+$competition-2x-height: 48px;
+$competition-2x-total-width: 296px;
+$competition-2x-total-height: 208px;
+$competition-2x-image: './sprites@2x.png';
+$competition-2x: (88px, 88px, -88px, -88px, 48px, 48px, 296px, 208px, './sprites@2x.png', 'competition@2x', );
+$demo-2x-name: 'demo@2x';
+$demo-2x-x: 0px;
+$demo-2x-y: 0px;
+$demo-2x-offset-x: 0px;
+$demo-2x-offset-y: 0px;
+$demo-2x-width: 48px;
+$demo-2x-height: 48px;
+$demo-2x-total-width: 296px;
+$demo-2x-total-height: 208px;
+$demo-2x-image: './sprites@2x.png';
+$demo-2x: (0px, 0px, 0px, 0px, 48px, 48px, 296px, 208px, './sprites@2x.png', 'demo@2x', );
+$education-2x-name: 'education@2x';
+$education-2x-x: 88px;
+$education-2x-y: 0px;
+$education-2x-offset-x: -88px;
+$education-2x-offset-y: 0px;
+$education-2x-width: 48px;
+$education-2x-height: 48px;
+$education-2x-total-width: 296px;
+$education-2x-total-height: 208px;
+$education-2x-image: './sprites@2x.png';
+$education-2x: (88px, 0px, -88px, 0px, 48px, 48px, 296px, 208px, './sprites@2x.png', 'education@2x', );
+$email-2x-name: 'email@2x';
+$email-2x-x: 264px;
+$email-2x-y: 0px;
+$email-2x-offset-x: -264px;
+$email-2x-offset-y: 0px;
+$email-2x-width: 32px;
+$email-2x-height: 32px;
+$email-2x-total-width: 296px;
+$email-2x-total-height: 208px;
+$email-2x-image: './sprites@2x.png';
+$email-2x: (264px, 0px, -264px, 0px, 32px, 32px, 296px, 208px, './sprites@2x.png', 'email@2x', );
+$intern-2x-name: 'intern@2x';
+$intern-2x-x: 0px;
+$intern-2x-y: 88px;
+$intern-2x-offset-x: 0px;
+$intern-2x-offset-y: -88px;
+$intern-2x-width: 48px;
+$intern-2x-height: 48px;
+$intern-2x-total-width: 296px;
+$intern-2x-total-height: 208px;
+$intern-2x-image: './sprites@2x.png';
+$intern-2x: (0px, 88px, 0px, -88px, 48px, 48px, 296px, 208px, './sprites@2x.png', 'intern@2x', );
+$link-2x-name: 'link@2x';
+$link-2x-x: 0px;
+$link-2x-y: 176px;
+$link-2x-offset-x: 0px;
+$link-2x-offset-y: -176px;
+$link-2x-width: 32px;
+$link-2x-height: 32px;
+$link-2x-total-width: 296px;
+$link-2x-total-height: 208px;
+$link-2x-image: './sprites@2x.png';
+$link-2x: (0px, 176px, 0px, -176px, 32px, 32px, 296px, 208px, './sprites@2x.png', 'link@2x', );
+$phone-2x-name: 'phone@2x';
+$phone-2x-x: 72px;
+$phone-2x-y: 176px;
+$phone-2x-offset-x: -72px;
+$phone-2x-offset-y: -176px;
+$phone-2x-width: 32px;
+$phone-2x-height: 32px;
+$phone-2x-total-width: 296px;
+$phone-2x-total-height: 208px;
+$phone-2x-image: './sprites@2x.png';
+$phone-2x: (72px, 176px, -72px, -176px, 32px, 32px, 296px, 208px, './sprites@2x.png', 'phone@2x', );
+$project-2x-name: 'project@2x';
+$project-2x-x: 176px;
+$project-2x-y: 0px;
+$project-2x-offset-x: -176px;
+$project-2x-offset-y: 0px;
+$project-2x-width: 48px;
+$project-2x-height: 48px;
+$project-2x-total-width: 296px;
+$project-2x-total-height: 208px;
+$project-2x-image: './sprites@2x.png';
+$project-2x: (176px, 0px, -176px, 0px, 48px, 48px, 296px, 208px, './sprites@2x.png', 'project@2x', );
+$skills-2x-name: 'skills@2x';
+$skills-2x-x: 176px;
+$skills-2x-y: 88px;
+$skills-2x-offset-x: -176px;
+$skills-2x-offset-y: -88px;
+$skills-2x-width: 44px;
+$skills-2x-height: 44px;
+$skills-2x-total-width: 296px;
+$skills-2x-total-height: 208px;
+$skills-2x-image: './sprites@2x.png';
+$skills-2x: (176px, 88px, -176px, -88px, 44px, 44px, 296px, 208px, './sprites@2x.png', 'skills@2x', );
+$star-2x-name: 'star@2x';
+$star-2x-x: 264px;
+$star-2x-y: 144px;
+$star-2x-offset-x: -264px;
+$star-2x-offset-y: -144px;
+$star-2x-width: 24px;
+$star-2x-height: 24px;
+$star-2x-total-width: 296px;
+$star-2x-total-height: 208px;
+$star-2x-image: './sprites@2x.png';
+$star-2x: (264px, 144px, -264px, -144px, 24px, 24px, 296px, 208px, './sprites@2x.png', 'star@2x', );
+$web-2x-name: 'web@2x';
+$web-2x-x: 264px;
+$web-2x-y: 72px;
+$web-2x-offset-x: -264px;
+$web-2x-offset-y: -72px;
+$web-2x-width: 32px;
+$web-2x-height: 32px;
+$web-2x-total-width: 296px;
+$web-2x-total-height: 208px;
+$web-2x-image: './sprites@2x.png';
+$web-2x: (264px, 72px, -264px, -72px, 32px, 32px, 296px, 208px, './sprites@2x.png', 'web@2x', );
+$spritesheet-width: 148px;
+$spritesheet-height: 104px;
+$spritesheet-image: './sprites.png';
+$spritesheet-sprites: ($blog, $competition, $demo, $education, $email, $intern, $link, $phone, $project, $skills, $star, $web, );
+$spritesheet: (148px, 104px, './sprites.png', $spritesheet-sprites, );
+$retina-spritesheet-width: 296px;
+$retina-spritesheet-height: 208px;
+$retina-spritesheet-image: './sprites@2x.png';
+$retina-spritesheet-sprites: ($blog-2x, $competition-2x, $demo-2x, $education-2x, $email-2x, $intern-2x, $link-2x, $phone-2x, $project-2x, $skills-2x, $star-2x, $web-2x, );
+$retina-spritesheet: (296px, 208px, './sprites@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$blog-group-name: 'blog';
+$blog-group: ('blog', $blog, $blog-2x, );
+$competition-group-name: 'competition';
+$competition-group: ('competition', $competition, $competition-2x, );
+$demo-group-name: 'demo';
+$demo-group: ('demo', $demo, $demo-2x, );
+$education-group-name: 'education';
+$education-group: ('education', $education, $education-2x, );
+$email-group-name: 'email';
+$email-group: ('email', $email, $email-2x, );
+$intern-group-name: 'intern';
+$intern-group: ('intern', $intern, $intern-2x, );
+$link-group-name: 'link';
+$link-group: ('link', $link, $link-2x, );
+$phone-group-name: 'phone';
+$phone-group: ('phone', $phone, $phone-2x, );
+$project-group-name: 'project';
+$project-group: ('project', $project, $project-2x, );
+$skills-group-name: 'skills';
+$skills-group: ('skills', $skills, $skills-2x, );
+$star-group-name: 'star';
+$star-group: ('star', $star, $star-2x, );
+$web-group-name: 'web';
+$web-group: ('web', $web, $web-2x, );
+$retina-groups: ($blog-group, $competition-group, $demo-group, $education-group, $email-group, $intern-group, $link-group, $phone-group, $project-group, $skills-group, $star-group, $web-group, );
 
 // The provided mixins are intended to be used with the array-like variables
 //
@@ -186,6 +363,34 @@ $spritesheet: (142px, 100px, '../img/sprites.png', $spritesheet-sprites, );
   @include sprite-height($sprite);
 }
 
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
 // The `sprites` mixin generates identical output to the CSS template
 //   but can be overridden inside of SCSS
 //
@@ -195,6 +400,19 @@ $spritesheet: (142px, 100px, '../img/sprites.png', $spritesheet-sprites, );
     $sprite-name: nth($sprite, 10);
     .#{$sprite-name} {
       @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
     }
   }
 }

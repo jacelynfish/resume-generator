@@ -191,22 +191,44 @@ a {
   line-height: 1.5; }
 
 .sidebar-contact-item:nth-child(2):before {
-  background-image: url(sprites.png);
-  background-position: 0px -84px;
+  background-image: url(./sprites.png);
+  background-position: -36px -88px;
   width: 16px;
   height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .sidebar-contact-item:nth-child(2):before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 .sidebar-contact-item:nth-child(3):before {
-  background-image: url(sprites.png);
-  background-position: -72px -84px;
+  background-image: url(./sprites.png);
+  background-position: -132px 0px;
   width: 16px;
   height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .sidebar-contact-item:nth-child(3):before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 .sidebar-contact-item:nth-child(4):before {
-  background-image: url(sprites.png);
-  background-position: -36px -84px;
+  background-image: url(./sprites.png);
+  background-position: -132px -36px;
   width: 16px;
   height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .sidebar-contact-item:nth-child(4):before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
+
+.sidebar-contact-item:nth-child(5):before {
+  background-image: url(./sprites.png);
+  background-position: -72px -88px;
+  width: 16px;
+  height: 16px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .sidebar-contact-item:nth-child(5):before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 .sidebar-contact-item:nth-child(2) {
   display: inline-block;
@@ -254,6 +276,22 @@ a {
     margin-left: -24px;
     vertical-align: middle; }
   .sidebar-contact-item:nth-child(4) span {
+    vertical-align: middle; }
+
+.sidebar-contact-item:nth-child(5) {
+  display: inline-block;
+  margin-left: 36px;
+  font-family: "sspro-light", sans-serif;
+  font-size: 1em; }
+  .sidebar-contact-item:nth-child(5):before {
+    display: inline-block;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    margin-left: -24px;
+    vertical-align: middle; }
+  .sidebar-contact-item:nth-child(5) span {
     vertical-align: middle; }
 
 .sidebar-des-item {
@@ -366,40 +404,66 @@ a {
         display: none; } }
 
 #education .main-title:before {
-  background-image: url(sprites.png);
-  background-position: -42px 0px;
-  width: 22px;
-  height: 22px; }
+  background-image: url(./sprites.png);
+  background-position: -44px 0px;
+  width: 24px;
+  height: 24px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #education .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #intern .main-title:before {
-  background-image: url(sprites.png);
-  background-position: 0px -42px;
-  width: 22px;
-  height: 22px; }
+  background-image: url(./sprites.png);
+  background-position: 0px -44px;
+  width: 24px;
+  height: 24px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #intern .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #competition .main-title:before {
-  background-image: url(sprites.png);
-  background-position: 0px 0px;
-  width: 22px;
-  height: 22px; }
+  background-image: url(./sprites.png);
+  background-position: -44px -44px;
+  width: 24px;
+  height: 24px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #competition .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #project .main-title:before {
-  background-image: url(sprites.png);
-  background-position: -84px 0px;
-  width: 22px;
-  height: 22px; }
+  background-image: url(./sprites.png);
+  background-position: -88px 0px;
+  width: 24px;
+  height: 24px;
+  background-position: -65px -28px;
+  background-size: 110px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #project .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #skills .main-title:before {
-  background-image: url(sprites.png);
-  background-position: -84px -42px;
+  background-image: url(./sprites.png);
+  background-position: -88px -44px;
   width: 22px;
   height: 22px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #skills .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #demo .main-title:before {
-  background-image: url(sprites.png);
-  background-position: -42px -42px;
-  width: 22px;
-  height: 22px; }
+  background-image: url(./sprites.png);
+  background-position: 0px 0px;
+  width: 24px;
+  height: 24px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    #demo .main-title:before {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 #education .main-title:before {
   display: inline-block;
@@ -515,12 +579,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .edu-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .edu-duration {
   font-family: "ko", sans-serif;
@@ -562,12 +630,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .intern-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .intern-duration {
   font-family: "ko", sans-serif;
@@ -609,12 +681,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .com-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .com-duration {
   font-family: "ko", sans-serif;
@@ -656,12 +732,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .proj-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .proj-duration {
   font-family: "ko", sans-serif;
@@ -703,12 +783,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .skill-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .skill-duration {
   font-family: "ko", sans-serif;
@@ -750,12 +834,16 @@ a {
         margin-right: 4px;
         display: inline-block;
         content: '';
-        background-image: url(sprites.png);
-        background-position: -126px -36px;
+        background-image: url(./sprites.png);
+        background-position: -132px -72px;
         width: 12px;
         height: 12px;
         width: 12px;
         height: 12px; }
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          .demo-item-des li:before {
+            background-image: url(./sprites@2x.png);
+            background-size: 148px 104px; } }
 
 .demo-duration {
   font-family: "ko", sans-serif;
@@ -773,12 +861,16 @@ a {
   display: inline-block;
   width: 16px;
   height: 16px;
-  background-image: url(sprites.png);
-  background-position: -126px 0px;
+  background-image: url(./sprites.png);
+  background-position: 0px -88px;
   width: 16px;
   height: 16px;
   vertical-align: middle;
   margin-left: 4px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .demo-item-name a {
+      background-image: url(./sprites@2x.png);
+      background-size: 148px 104px; } }
 
 .skill-title {
   color: #0c9;

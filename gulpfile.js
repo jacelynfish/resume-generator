@@ -46,8 +46,8 @@ gulp.task('sprites', function(){
             cssName:'sprites.scss',
             imgName:'sprites.png',
             retinaImgName: 'sprites@2x.png',
-	    imgPath:'../img/sprites.png',
-            retinaImgPath:'../img/sprites@2x.png'
+	    imgPath:'./sprites.png',
+            retinaImgPath:'./sprites@2x.png'
         }))
     sprites.img.pipe(gulp.dest('./dist'));
     sprites.css.pipe(gulp.dest('./style'));

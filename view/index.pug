@@ -20,9 +20,10 @@ html
                     span #{contact.phone}
                 div.sidebar-contact-item
                     span #{contact.email}
-
                 div.sidebar-contact-item
                     span #{contact.page}
+                div.sidebar-contact-item
+                    span #{contact.blog}
 
 
             div.sidebar-item#sidebar-personalAccess
@@ -64,7 +65,6 @@ html
                             span.edu-gpa GPA: #{eduitem.gpa}
                             span.edu-duration #{eduitem.enrollYear} - #{eduitem.eduYear}
                         div.edu-item-faculty #{eduitem.faculty} #{eduitem.major}
-                        div.edu-item-des #{eduitem.courses}
                         div.edu-item-des #{eduitem.honor}
 
             div.main-item#intern
@@ -81,20 +81,6 @@ html
                         ul.intern-item-des
                           each des in internitem.description
                             li.intern-des-item <em>#{des.keyword}</em> #{des.detail}
-            div.main-item#project
-                h3.main-title
-                    | 校园/项目经历
-                    span Project Experience
-                each projitem in projectExperience
-                    div.proj-item
-                        div.proj-item-basic
-                            span.proj-name #{projitem.name}
-                            span.proj-location #{projitem.location}
-                            span.proj-duration #{projitem.startDate} - #{projitem.endDate}
-                        div.proj-item-job #{projitem.job}
-                        ul.proj-item-des
-                            each des in projitem.description
-                                li.proj-des-item #{des}
             div.main-item#competition
                 h3.main-title
                     | 比赛经历

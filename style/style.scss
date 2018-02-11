@@ -174,23 +174,25 @@ $maincolor: #0c9;
 
 .sidebar-contact-item:nth-child(2){
   &:before{
-    @include sprite($phone);
+    @include retina-sprite($phone-group);
   }
 }
 .sidebar-contact-item:nth-child(3){
   &:before{
-    @include sprite($email);
+    @include retina-sprite($email-group);
   }
 }
-
-
 .sidebar-contact-item:nth-child(4){
   &:before{
-    @include sprite($web);
+    @include retina-sprite($web-group);
   }
-
 }
-@each $idx,$name in (2:phone, 3:email, 4:web){
+.sidebar-contact-item:nth-child(5){
+  &:before{
+    @include retina-sprite($blog-group);
+  }
+}
+@each $idx,$name in (2:phone, 3:email, 4:web, 5:blog){
   .sidebar-contact-item:nth-child(#{$idx}){
     display: inline-block;
     margin-left: 36px;
@@ -203,7 +205,7 @@ $maincolor: #0c9;
       width: 16px;
       height: 16px;
 
-      //@include sprite($#{$name});
+      //@include retina-sprite($#{$name});
       //background-image: url('./icon/#{$name}.png');
       //background-size: 16px 16px;
       margin-right: 8px;
@@ -351,32 +353,37 @@ $maincolor: #0c9;
 }
 #education .main-title{
     &:before {
-      @include sprite($education)
+      @include retina-sprite($education-group)
     }
   }
 #intern .main-title{
      &:before {
-       @include sprite($intern)
+       @include retina-sprite($intern-group)
      }
    }
 #competition .main-title{
       &:before {
-        @include sprite($competition)
+        @include retina-sprite($competition-group)
       }
     }
 #project .main-title{
        &:before {
-         @include sprite($project)
+         @include retina-sprite($project-group)
+         background-position: -65px -28px;
+         background-size: 110px;
        }
      }
 #skills .main-title{
         &:before {
-          @include sprite($skills)
+          @include retina-sprite($skills-group)
+          // background-position: -1px 3px;
+          // background-size: 110px;
         }
       }
 #demo .main-title{
          &:before {
-           @include sprite($demo)
+           @include retina-sprite($demo-group)
+
          }
        }
 
@@ -450,7 +457,7 @@ $maincolor: #0c9;
           margin-right: 4px;
           display: inline-block;
           content: '';
-          @include sprite($star);
+          @include retina-sprite($star-group);
           //background: url('./icon/star.png') no-repeat;
           //background-size: 12px 12px;
           width: 12px;
@@ -482,7 +489,7 @@ $maincolor: #0c9;
   display: inline-block;
   width: 16px;
   height: 16px;
-  @include sprite($link);
+  @include retina-sprite($link-group);
   //background: url('./icon/link.png') no-repeat;
   vertical-align: middle;
   margin-left: 4px;
